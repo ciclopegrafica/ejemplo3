@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* CSS Document */
+
+       .bac-header {
+
+            background-image: url(/static/images/ba_logo.png), none;
+        }
+        
+/*HEADER*/
+        
+      .border-gradient {
+            border-top: 6px solid #fdd306;
+        }
+	#header {
+		height: 85px;
+		border-bottom: 1px solid #cccccc;
+	}
+	#header #nombre-sitio a{
+		text-decoration: none;
+	}
+	#header #nombre-sitio h1{
+		float: left;
+		color: #444444;
+	}
+    
+    #ba-logo {
+    margin-top: 15px;
+    margin-right: 5px;
+    border-right: solid 1px #000;
+    width: 100px;
+    background-image: url(/static/images/ba_logo.png);
+    background-repeat: no-repeat;
+    margin-left: 60px;
+}
+
+
+        
+    /* Responsive Logo BA */
+    @media screen and (max-width: 500px)  {
+    #ba-logo {
+       display: none;
+    }
+
+	header #nombre-sitio h1 {
+    float: left;
+    color: #444444;
+    padding-left: 10px;
+    padding-top: 10px;
+	font-size: 1.4em!important;
+}	
+	
+    }
+        
+    /* Alineación logos y links */     
+    .navbar {
+            border-bottom: 0px;
+			width: 100%;
+			left: 0;
+			top: 0;
+			position: fixed;
+			z-index: 5000;
+     }
+		
+     }
+        
+    .navbar-header {
+            padding-top: 15px;
+     } 
+        
+    .navbar-right {
+            margin-top: 15px;
+     } 
+        
+    /* Responsive navbar.collapse */
+
+    @media (max-width: 990px) {
+    .back {
+        margin-right: -30px;
+        margin-left: -30px;
+    }
+    .navbar-header {
+        float: none;
+		/*margin-top: 5px;*/
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        background-color: #fff;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+   .navbar-nav .open .dropdown-menu {
+       position: static;
+       float: none;
+       width: auto;
+       margin-top: 0;
+       background-color: transparent;
+       border: 0;
+       -webkit-box-shadow: none;
+       box-shadow: none;
+        }
+    }
+        
+    /* Border navbar-collapse */    
+   .navbar-default .navbar-collapse {
+          border-bottom: 0px;  
+    }
+
+.icons-header {
+    float: right !important;
+}
+
+
+
+
+td ul li{
+    
+    list-style:none;
+    
+}
+
+.sacar_espacio_boton{
+	
+	padding-right: 10px !important;
+	margin-top: 6px !important;
+}
+
+.navbar-primary .dropdown-menu > li > a:hover {
+    background-color: #e5e5e5 !important;
+    
+}
+
+
+
+.espacio_arriba {
+   margin-top:20px;
+   margin-right: 16px;
+}
+ 
+
+.list-group-item {
+    
+    margin: 0 0 8px 0;
+    
+}
+
+
+
+.espacio_top{
+	margin-top:60px;
+}
+
+
+
+
+
+/* css menu
+* ======================================================================= */
+
+.navbar-primary .dropdown-menu > li > a:hover, .navbar-primary .dropdown-menu > li > a:focus, .navbar-primary .nav > li > a:focus, .navbar-primary .nav > li > a:hover, .navbar-primary .nav .open > a, .navbar-primary .nav .open > a:focus, .navbar-primary .nav .open > a:hover, .navbar-primary a.navbar-brand:focus, .navbar-primary a.navbar-brand:hover {
+    background-color: #e7e7e7!important;
+    color: #292202!important;
+    opacity: 0.9!important;
+}
+
+
+
+#sidebar .submenu a  {
+padding-left: 0;
+margin-bottom: 0;
+margin-left: 50px;	
+list-style: none;
+color:#888;
+
+}
+
+#sidebar .submenu a:hover, #sidebar .submenu a:focus  {
+padding-left: 0;
+margin-bottom: 0;
+margin-left: 50px;	
+list-style: none;
+font-weight: 700;
+font-weight: bolder;	
+color:#000000;
+}
+
+.sidebar .nav > li > a:hover, .sidebar .nav > li > a:focus {
+    
+    color: #000000 !important;
+	
+    border-left:none !important;
+	font-family: "OpenSans", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-weight: bolder !important;
+}
+
+.affix, .affix-top {
+    position:fixed;
+	
+}
+
+#sidebar .submenu .activo {
+    font-weight: bolder;	
+    color:#000000!important;
+	
+}
+
+@media( max-width : 990px ) {
+
+    .affix, .affix-top {
+    position:relative;
+	
+}
+	
+.sidenav {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}	
+	
+	
+}
+
+.footer {
+    z-index: 200;
+    position: relative;
+}
+
+
+
+
+
+/*PANTALLA LOGIN*/
+
+
+.cajalogin{
+    margin-top: 10% !important;
+	text-align: center;
+}	
+
+
+.capcha {
+    background-color: #f9f9f9;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 30px;
+    text-align: left;
+	border: 1px solid ;
+	border-color: #d3d3d3;
+}
+.capcha div.col-sm-8 {
+    margin-top: 20px;
+}
+
+.color-texto {
+  color:#0389d1;
+  font-size: 20px;
+}
+
+.centrar {
+text-align: center; 
+}
+.main-container {
+
+    min-height: calc(100vh - 85px - 270px)!important;
+}
+
+
+
+/*circulos de dashboard chico */
+
+
+.circuloxl {
+    text-align: center;
+    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    color: #333;
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    background-color: transparent;
+}
+
+
+
+.circuloxl span.glyphicon {
+    padding-top: 32px;
+    font-size: 35px;
+    top: 0px;
+}
+.circuloxl span {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto 24px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 56px;
+    position: relative;
+    display: block;
+}
+
+

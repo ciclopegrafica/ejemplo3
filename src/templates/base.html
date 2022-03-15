@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %}</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/bastrap.css">
+	<link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+
+<body>
+
+    <header id="header" class="navbar navbar-primary navbar-top">
+        <div class="border-gradient">
+           <div class="container">
+           <div class="row">
+               
+                   <div id="logo-sitio">
+                       <a href="/" style="text-decoration: none;">
+                           <div id="ba-logo" class="navbar-brand img-responsive" data-original-title="" title="">
+                           </div>
+                       </a>
+                   </div>
+                   <div id="nombre-sitio">
+                       
+                       
+                       <!-- NOMBRE DEL SITIO -->
+                       
+                           <h1>Titulo</h1>
+                   
+                   </div>
+               
+               
+               <!-- MENU DEL LADO DERECHO TOP -->
+               
+               <div class="text-right espacio_arriba">
+             
+                   <div class="icons-header">
+                             
+                                       <ul class="nav navbar-nav navbar-right sacar_espacio_boton">
+                                           <li>
+                                                      
+                       
+                       <button class="btn btn-primary " type="button" data-toggle="dropdown" ><span class="glyphicon glyphicon-user" ></span>Juan José Pérez</button>
+                                       
+                                     <ul class="dropdown-menu" role="menu" >
+                                       <li><a  href="#" data-original-title="" title="">Item 1</a></li>
+                                       <li><a   href="#" data-original-title="" title="">Item 2</a></li>
+                                       <li><a  href="#" data-original-title="" title="">item 3</a></li>
+                                       <li><a  href="#" data-original-title="" title="">Item 4</a></li>
+                                     </ul>
+                                               
+                                       </li>
+                                         </ul>			
+                                               
+                                   </div>
+             
+             
+             
+                              </div>
+               
+               
+               </div>
+          </div>
+               
+       </div>
+       
+       
+                 
+           
+             </header>
+
+
+ {% block body %} 
+ 
+ 
+ {% endblock %}
+
+
+ <div class="footer">
+ <div class="container">
+     <div class="row">
+         <div class="col-md-6 col-sm-6">
+             <a class="navbar-brand bac-footer" href="http://www.buenosaires.gob.ar" target="_blank">Buenos Aires Ciudad</a>
+             <br>
+             <section class="footer-left" style="margin-top:52px;">
+                 <div class="region region-footer-zero">
+                     <h4 style="color:white;">Acerca de este sitio</h4><ul style="margin-left:-40px;">
+                         <li>
+                             <a href="http://www.buenosaires.gob.ar/innovacion/ciudadinteligente/terminos-y-condiciones" title="" style="color:grey;">Términos y condiciones</a>
+                         </li>
+                         <li>
+                             <a href="http://www.buenosaires.gob.ar/privacidad" title="" style="color:grey;">Política de privacidad</a>
+                         </li>
+                     </ul>
+                 </div>
+             </section>
+         </div>
+         <div class="sub-brand">
+                 <p>
+                     Versión<br>
+                     v 1.0
+                 </p>
+                 <p>
+                     Declaración Jurada
+                 </p>
+             </div>
+     </div>
+ </div>
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 	  
+  
+
+</body>
+</html>
